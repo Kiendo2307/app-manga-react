@@ -1,0 +1,131 @@
+
+.home-banner-1{
+    background: url('../../assets/images/naruto2.png');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-banner-3{
+    background: url('../../assets/images/naruto6.png');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-item-container{
+    position: absolute;
+    width: 440px;
+    height: 260px;
+    background-color: white;
+    top: 20%;
+    left: 15%;
+    background-color: rgba(255, 255, 255, .4);
+    padding: 25px 30px 10px;
+}
+
+.banner-item-category{
+    font-size: 15px;
+    color: black;
+}
+
+.banner-item-name{
+    font-weight: 900;
+    color: black;
+    font-size: 4.9rem;
+}
+
+.banner-item-desc{
+    font-size: 14px;
+    font-weight: 100;
+    padding-right: 10px;
+    font-style: italic;
+    color: black;
+}
+
+.banner-item-red{
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    background-color: #B90709;
+    margin-top: 8px;
+    float: right;
+    cursor: pointer;
+
+    p {
+        color: white;
+        margin-top: 6px;
+        font-weight: 600;
+    }
+}
+.left-btn{
+    position: absolute;
+    top: 0;
+    bottom: 20%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+    cursor: pointer;
+}
+
+.right-btn{
+    right: 0;
+    position: absolute;
+    top: 0;
+    bottom: 20%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+    cursor: pointer;
+}
+
+.icon-btn{
+    background-color: #B90709;
+    border-radius: 50%;
+    font-size: 28px;
+    padding: 15px 22px 15px 24px;
+}
+
+.home-container{
+    width: 100%;
+    background-color: black;
+    // min-height: 1250px;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    height: 100%;
+    width: 1116px;
+    margin-top: 30px;
+    
+}
+
+.heading-name{
+    color: white;
+    margin-bottom: 25px;
+}
+
+.content-comic{
+    display: flex;
+    flex-wrap: wrap;
+}
+

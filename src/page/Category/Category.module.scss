@@ -1,0 +1,120 @@
+.wrapper{
+    background: black;
+    width: 100%;
+    min-height: 1250px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.find-inner{
+    width: 1140px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.find-container{
+    width: 75%;
+}
+
+.find-name{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.find-item{
+    display: flex;
+    margin-right: 0;
+    //margin-left: 19px;
+    flex-wrap: wrap;
+}
+
+.find-category{
+    width: 25%;
+    margin-top: 18px;
+    border: 1px solid rgb(128, 128, 128, 0.4);
+    border-radius: 20px;
+    padding: 10px 20px;
+    height: fit-content;
+    background: url('../../assets/images/background1.jpg');
+}
+
+.title{
+    color: black;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.line{
+    padding: 10px 5px;
+    border-bottom: 0.5px solid black;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.line-name{
+    color: black;
+    width: 50%;
+}
+
+.line-name-1{
+    color: black;
+    width: 50%;
+    margin-bottom: 25px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+.preview{
+    width: 250px;
+    height: 410px;
+}
+
+.category-book{
+    width: 230px;
+    max-height: 410px;
+    // background-color: red;
+    margin-right: 0;
+    margin-left: 45px ;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.img{
+    width: 200px;
+    height: 280px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.name{
+    margin-top: 10px;
+    font-weight: 600;
+    margin-bottom: 10px !important;
+    font-size: 19px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    color: white;
+}
+   
+
+
+.vol{
+    color: white;
+    margin-top: auto;
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 2px
+}
+
+.time{
+    color: white;
+    font-size: 10px;
+    font-weight: 100;
+    font-style: italic;
+}
